@@ -1,3 +1,4 @@
+// app/assets/javascripts/templates/application.js.emblem
 header
   article
     .logo

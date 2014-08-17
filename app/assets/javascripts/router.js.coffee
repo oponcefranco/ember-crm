@@ -1,3 +1,4 @@
+# app/assets/javascripts/router.js.coffee
 # For more information see: http://emberjs.com/guides/routing/
 
 App.Router.reopen
@@ -7,4 +8,6 @@ App.Router.reopen
 App.Router.map ()->
   # @resource('posts')
 
-get '*path', to: 'home#index'
+App.Router.map ->
+  @resource 'leads', path: '/', ->
+    @resource 'lead', path: '/leads/:id'
