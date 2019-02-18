@@ -30,6 +30,9 @@ doc/app
 # scm revert files
 **.orig
 
+# RubyMine artifacts
+.idea/
+
 # Mac finder artifacts
 .DS_Store
 
