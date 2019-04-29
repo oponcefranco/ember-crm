@@ -17,6 +17,7 @@
 log/*.log
 /log/*.log
 /tmp
+logfile
 
 .bundle
 db/*.sqlite3*

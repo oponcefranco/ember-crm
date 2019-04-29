@@ -1,5 +1,5 @@
 // Fetched from channel: tags/v1.0.0-beta.7, with url http://builds.emberjs.com/tags/v1.0.0-beta.7/ember-data.min.js
-// Fetched on: 2014-08-15T23:42:14Z
+// Fetched on: 2014-04-10T02:22:12Z
 /*!
  * @overview  Ember Data
  * @copyright Copyright 2011-2014 Tilde Inc. and contributors.
