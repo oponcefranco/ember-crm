@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.6.6'
 
-gem 'bundler'
+gem 'bundler', '>= 2.1.4'
 gem 'ember-rails'
 gem 'ember-source'
 gem 'puma'
@@ -46,7 +46,8 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.4', '>= 1.4.2'
+  gem 'rubocop-faker', '~> 1.1'
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
