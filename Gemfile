@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.0'
+ruby '2.6.6'
 
 gem 'bundler'
 gem 'ember-rails'
@@ -8,10 +8,11 @@ gem 'ember-source'
 gem 'puma'
 gem 'haml'
 gem 'handlebars_assets'
-gem 'responders', '~> 2.0'
+gem 'responders'
+gem 'actionview'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2', '>= 4.2.11.1'
+gem 'rails', '>= 4.2.11.3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -50,6 +51,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.21.0'
-  gem 'rails_12factor'
+  # gem 'pg', '~> 0.21.0'
+  # gem 'rails_12factor'
 end
