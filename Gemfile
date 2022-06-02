@@ -5,7 +5,7 @@ ruby '2.7.1'
 gem 'bundler', '>= 2.1.4'
 gem 'ember-rails'
 gem 'ember-source'
-gem 'puma'
+gem "puma", ">= 5.6.4"
 gem 'haml'
 gem 'handlebars_assets'
 gem 'responders'
