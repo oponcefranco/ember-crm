@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.1'
 
-gem 'bundler', '>= 2.1.4'
+gem 'bundler', '2.1.4'
 gem 'ember-rails'
 gem 'ember-source'
 gem "puma", ">= 5.6.4"
@@ -12,7 +12,7 @@ gem 'responders'
 gem 'actionview'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0'
+gem 'rails', '~> 6.1.6'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -46,7 +46,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.4', '>= 1.4.2'
+  gem 'sqlite3', '>= 1.4.2'
   gem 'rubocop-faker', '~> 1.1'
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
