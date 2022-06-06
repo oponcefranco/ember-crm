@@ -261,14 +261,14 @@ DEPENDENCIES
   handlebars_assets
   jbuilder
   jquery-rails
-  puma
-  rails (~> 6.1.1)
+  puma (~> 5.6.4)
+  rails (~> 6.1.6)
   responders
   rubocop-faker (~> 1.1)
   sass-rails
   sdoc
   spring
-  sqlite3 (~> 1.4, >= 1.4.2)
+  sqlite3 (>= 1.4.2)
   uglifier
 
 RUBY VERSION

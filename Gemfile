@@ -12,7 +12,7 @@ gem 'responders'
 gem 'actionview'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.1'
+gem 'rails', '~> 6.1.6'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
