@@ -2,17 +2,17 @@ source 'https://rubygems.org'
 
 ruby '2.7.1'
 
-gem 'bundler', '2.1.4'
+gem 'bundler'
 gem 'ember-rails'
 gem 'ember-source'
-gem "puma", ">= 5.6.4"
+gem "puma"
 gem 'haml'
 gem 'handlebars_assets'
 gem 'responders'
 gem 'actionview'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.6'
+gem 'rails', '~> 7.0', '>= 7.0.3.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
