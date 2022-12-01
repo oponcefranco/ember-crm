@@ -1,4 +1,4 @@
-## EmberJS Tutorial by Vic Ramon
+### EmberJS Tutorial by Vic Ramon
 
 This tutorial provides an introduction to the Ember JS framework
 
