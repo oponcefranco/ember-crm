@@ -46,8 +46,8 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    active-model-adapter-source (1.13.1)
-      ember-source (>= 1.8, < 3.0)
+    active-model-adapter-source (2.1.1)
+      ember-data-source (>= 1.13, < 3.0)
     active_model_serializers (0.10.13)
       actionpack (>= 4.1, < 7.1)
       activemodel (>= 4.1, < 7.1)
@@ -95,7 +95,7 @@ GEM
     crass (1.0.6)
     date (3.3.3)
     ember-cli-assets (0.0.37)
-    ember-data-source (3.0.2)
+    ember-data-source (2.18.3)
       ember-source (>= 2, < 3.0)
     ember-es6_template (0.6.0)
       babel-transpiler (>= 0.6.0, < 0.8)
@@ -290,7 +290,7 @@ DEPENDENCIES
   uglifier
 
 RUBY VERSION
-   ruby 2.7.1p83
+   ruby 3.1.2p20
 
 BUNDLED WITH
    2.1.4
