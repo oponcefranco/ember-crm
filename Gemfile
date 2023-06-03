@@ -12,7 +12,7 @@ gem 'responders'
 gem 'actionview'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.0', '>= 7.0.3.1'
+gem 'rails', '~> 7.0', '>= 7.0.5'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -48,7 +48,7 @@ gem 'spring',        group: :development
 group :development, :test do
   gem 'sqlite3', '>= 1.4.2'
   gem 'rubocop-faker', '~> 1.1'
-  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+  # gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :production do
